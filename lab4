@@ -1,0 +1,28 @@
+project/
+│
+├── app/
+│   ├── singleton_version/
+│   │   ├── app_config.py
+│   │   ├── audit.py
+│   │   ├── notification_service.py
+│   │   └── notification_provider.py
+│   │
+│   ├── di_version/
+│   │   ├── config.py
+│   │   ├── audit.py
+│   │   ├── notification_service.py
+│   │   └── notification_provider.py
+│   │
+│   └── models/
+│       └── request.py
+│
+├── tests/
+│   ├── test_singleton.py
+│   ├── test_di.py
+│   └── test_parallel.py
+│
+├── uml/
+│   ├── class_diagram.puml
+│   └── sequence_diagram.puml
+│
+└── README.md
